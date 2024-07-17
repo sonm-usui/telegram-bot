@@ -1,7 +1,6 @@
 // app/api/telegram/route.js
 
 import { NextResponse } from 'next/server';
-import fetch from 'node-fetch';
 
 const TELEGRAM_API_URL = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}`;
 
